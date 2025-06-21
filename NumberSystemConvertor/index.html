@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Number System Converter</h2>
+        <div class="input-group">
+            <label>Decimal</label>
+            <input type="text" id="decimal" oninput="convertFromDecimal()">
+            <div class="error-message" id="error-decimal"></div>
+        </div>
+        <div class="input-group">
+            <label>Binary</label>
+            <input type="text" id="binary" oninput="convertFromBinary()">
+            <div class="error-message" id="error-binary"></div>
+        </div>
+        <div class="input-group">
+            <label>Octal</label>
+            <input type="text" id="octal" oninput="convertFromOctal()">
+            <div class="error-message" id="error-octal"></div>
+        </div>
+        <div class="input-group">
+            <label>Hexadecimal</label>
+            <input type="text" id="hexadecimal" oninput="convertFromHexadecimal()">
+            <div class="error-message" id="error-hexadecimal"></div>
+        </div>
+    </div>
+    
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
